@@ -1,0 +1,23 @@
+	.ContenedorPrincipaldelCarrito{
+      height: 100%;
+	}
+
+	.ContenedorPrincipaldelCarrito h1{
+		display: block;
+		padding: 0px 0px 10px 60px;
+		/*border: 2px red solid;*/
+	}
+	.ConetedorPP1{
+		display: flex;
+		border: 2px red solid;
+		padding: 0px 0px 0px 0px;
+		margin-left: 60px;
+	}
+
+	.ContenedorCuadro{
+		display: flex;
+		border: 2px red solid;
+		margin-right: 50px;
+		width: 30%;
+		height: 20%;
+	}

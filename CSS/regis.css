@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Modal-Registro{
+    width: 50%;
+    border: 2px salmon double;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.D-Encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* border: 2px salmon solid;*/
+}
+.D-Encabezado >h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+    padding: 15px;
+}
+
+.close{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+.close :hover{
+    color: aqua;
+}
+
+.D-Parte1{
+    display:block;
+   /* border: 1px #663399 solid;*/
+    /*padding: 10px;*/
+}
+
+.D-Bloque{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+border: 3px red transparent;
+margin: 0px;
+}
+
+.D-Parte2{
+    width: 50%;
+    padding: 10px;
+   /* border: 2px salmon solid;*/
+    margin: 5px;
+}
+
+.D-Parte2 > label{
+    padding: 5px;
+    font-weight: bolder;
+   /* border: 2px salmon solid;*/
+}
+
+.D-Parte2 > select{
+    padding: 5px;
+    margin: 8px 5px 5px 5px
+}
+
+.D-Parte2 > input{
+    padding: 5px;
+    margin: 8px 5px 5px 5px;
+}
+.D-Parte2 > input[type=text]{
+    width: 90%;
+}
+.D-Parte2 > input[type=password]{
+	width: 90%;
+}
+
+.D-Parte2 > input[type=email]{
+	width: 100%;
+}
+
+.D-Parte2 > input[type=tel]{
+	width: 100%;
+}
+
+.boton{
+    display: flex;
+    margin: 10px;
+}
+.boton > button {
+    background-color: #00cec9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .D-Display{
+       /*display: block;*/
+       border: 2px salmon solid;
+       margin-top: 5px;
+       padding: 10px; 
+   }
+.bloque{
+    display: block;
+    border:2px red solid;
+    margin: 3px;
+}
+
+.D-bloque2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 2px black solid;
+}
+
+ .bloque1 {
+     
+     border: 3px blue solid;
+     margin: 5px;
+ }
+ .D-Bloque-Imagen{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     flex-wrap: wrap;
+     border: 2px blue solid;
+     padding: 0 300px 0 300px;
+     margin-top: 45px;
+ }
+ .Bloque1-Imagen{
+     width: 30%;
+     display: inline-flex;
+     flex-direction: column;
+     border: 2px red solid;
+     padding: 25px 10px 10px 10px;
+     margin: 25px 5px 5px 5px ;
+ }
+ .Bloque1-Imagen >i {
+        margin: auto;
+        font-size: 60px;
+        color: #fff;
+        background: #1FDE82;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 8px 8px rgba(31, 222, 130, .46);
+    }
+
+ .Bloque1-Imagen >p{
+     text-align: center;
+     padding: 10px;
+     padding-top: 25px;
+ }
+ /*
+ .D-Bloque-Imagen{
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     flex-wrap: wrap;
+     border: 2px blue solid;
+     padding: 0 180px 0 180px;
+ }
+ */

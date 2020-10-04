@@ -1,0 +1,88 @@
+/*
+sintaxis 
+para degradar
+background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+header{
+	position: relative; 
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0px;
+	border:3px green solid; 
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.parte2{
+	position: relative; 
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px;
+	border:3px green solid; 
+	background-image: linear-gradient(to right, #43e97a2d 0%, #38f9d60a 100%), url(../Imagen/prueba1.jpg) ;  
+	background-size: cover;
+	background-attachment: fixed;
+    position: relative;
+
+}
+
+.ondas{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+header img{
+	float: right;
+}
+
+main{
+	background-color: burlywood;
+	padding: 50px 30px 50px 30px;
+	margin: 10px 0px 10px 0px;
+}
+
+.Servicio3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	border: 5px red solid;
+}
+.menuprueba{
+	border: 5px rgb(255, 0, 255) solid;
+	margin: 20px;
+	padding: 15px;
+}
+
+.menuprueba img{
+	width: 80%;
+	height: 80%;
+	align-items: center;
+	display: block;
+	margin: auto;
+	
+}
+
+.menuprueba h3{
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+	color: rgb(180, 3, 180);
+}
+.menuprueba p{
+	text-align: justify;
+	text-indent:40px;
+}
